@@ -1,0 +1,33 @@
+{
+  "name": "buildownreact",
+  "description": "搭建react简易版",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^4.10.0",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.11.0",
+    "typescript": "^4.8.4",
+    "ts-node": "^10",
+    "ts-loader": "^9.4.1",
+    "@types/node": "^18",
+    "@types/webpack": "^5",
+    "html-webpack-plugin": "^5.5.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lq48303847/buildOwnReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lq48303847/buildOwnReact/issues"
+  },
+  "homepage": "https://github.com/lq48303847/buildOwnReact#readme"
+}
